@@ -18,14 +18,20 @@
 **Tools Used**:
 
 Python – Core programming language.
+
 hashlib – Generates SHA-256 hash values for files.
+
 os – Traverses directories to find files.
+
 json – Stores and retrieves file hashes for comparison.
+
 Google Colab – Runs the script in a cloud environment.
+
 **How It Works**:
 
 Baseline Hash Creation: The tool scans a directory, calculates hashes for files, and stores them in hash_database.json.
 Integrity Verification: It rescans files, compares new hashes with stored values, and reports any changes.
+
 **Expected Output**:
 
 plaintext
